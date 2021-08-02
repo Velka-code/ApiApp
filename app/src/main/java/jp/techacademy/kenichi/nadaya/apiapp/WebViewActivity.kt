@@ -24,7 +24,6 @@ class WebViewActivity: AppCompatActivity() {
         fab.setOnClickListener{
             if(isFavorite){
                 Log.d("kotlintest", shop.toString())
-                //onClickDeleteFavorite?.invoke(shop.id)
                 FavoriteShop.delete(shop.id)
                 fab.setImageResource(R.drawable.ic_star_border)
                 isFavorite = false

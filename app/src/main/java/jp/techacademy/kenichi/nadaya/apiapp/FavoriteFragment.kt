@@ -28,6 +28,7 @@ class FavoriteFragment: Fragment() {
         return inflater.inflate(R.layout.fragment_favorite, container, false)
     }
 
+    //追加
     override fun onResume() {
         super.onResume()
         updateData()

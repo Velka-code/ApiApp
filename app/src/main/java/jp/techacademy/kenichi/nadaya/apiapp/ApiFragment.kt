@@ -83,6 +83,7 @@ class ApiFragment: Fragment() {
         updateData()
     }
 
+    //追加
     override fun onResume() {
         super.onResume()
         updateView()
